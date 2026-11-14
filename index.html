@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CS Knowledge Hub — 以繁體中文整理資工課程知識。">
+  <title>CS Knowledge Hub | 資工知識庫</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="header-inner">
+  <a class="brand" href="index.html"><span class="brand-mark">CS</span><span>CS Knowledge Hub<small>COMPUTER SCIENCE NOTES</small></span></a>
+  <nav class="nav" aria-label="主要導覽"><a href="index.html" aria-current="page">首頁</a><a href="#courses">知識分類</a><a href="README.md">專案說明</a></nav>
+</div></header>
+<main>
+  <section class="hero container">
+    <div class="eyebrow">Learn · Connect · Build</div>
+    <h1>把複雜的知識，<br>整理成清楚的脈絡。</h1>
+    <p class="lead">CS Knowledge Hub 是你的資工知識庫。從電腦組織、作業系統到程式語言與人工智慧，用一致的架構累積、連結每一個重要概念。</p>
+    <div class="hero-actions"><a class="btn" href="#courses">探索知識分類 ↗</a><a class="btn secondary" href="AGENTS.md">查看 AI 開發規則</a></div>
+    <div class="search-wrap"><input type="search" data-search placeholder="搜尋課程或知識主題…" aria-label="搜尋知識主題"></div>
+    <div class="search-results" data-search-result aria-live="polite">輸入課程或關鍵字，快速尋找知識主題。</div>
+  </section>
+  <section class="section container" id="courses">
+    <div class="section-head"><div><div class="eyebrow">Knowledge Areas</div><h2>探索知識分類</h2><p>四個起點，逐步建立完整的資工知識地圖。</p></div><span class="pill">4 個分類</span></div>
+    <div class="grid">
+      <a class="card" data-search-item href="pages/computer-architecture/index.html"><div class="card-icon">⌘</div><h3>Computer Architecture</h3><p>理解電腦如何執行指令、處理資料，以及 CPU 與記憶體如何協同運作。</p><div class="card-meta">MIPS · CPU · Pipeline →</div></a>
+      <a class="card" data-search-item href="pages/operating-systems/index.html"><div class="card-icon">◫</div><h3>Operating Systems</h3><p>認識作業系統如何管理行程、執行緒、資源與多工工作。</p><div class="card-meta">Process · Thread · Scheduling →</div></a>
+      <a class="card" data-search-item href="pages/programming-languages/index.html"><div class="card-icon">⌘</div><h3>Programming Languages</h3><p>從語法、環境與作用域出發，理解程式語言的核心設計概念。</p><div class="card-meta">Scheme · Scope · Recursion →</div></a>
+      <a class="card" data-search-item href="pages/artificial-intelligence/index.html"><div class="card-icon">✳</div><h3>Artificial Intelligence</h3><p>整理大型語言模型、RAG 與 AI Agent 的設計方法與實作概念。</p><div class="card-meta">RAG · AI Agent · Reflection →</div></a>
+    </div>
+  </section>
+  <section class="section container">
+    <div class="callout"><strong>這個知識庫如何持續成長？</strong><br>每篇文章都有統一的內容模板；AI 開發時先讀取根目錄的 <code>AGENTS.md</code>，再依規則建立文章、更新分類索引，讓網站能穩定延伸。</div>
+  </section>
+</main>
+<footer class="site-footer"><div class="container">CS Knowledge Hub · Built for continuous learning · © <span data-year></span></div></footer>
+</body></html>
